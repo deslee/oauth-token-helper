@@ -161,7 +161,7 @@ function start() {
 		uri: "https://oauth.reddit.com/api/v1/me",
 		headers: {
 			Authorization: "Bearer " + GLOBALS.token,
-			'User-Agent': "Desmond's App (s7FYKzf8W91_4Q) 0.1 (by /u/deslee)"
+			'User-Agent': "Desmond's App 0.1 (by /u/deslee)"
 		}
 	}, function(error, response, body) {
 		wrap_api_response({
