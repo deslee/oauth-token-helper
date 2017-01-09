@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "node-uuid": "^1.4.7",
-    "request": "^2.79.0"
+    "snoowrap": "^1.12.0"
   }
 }
